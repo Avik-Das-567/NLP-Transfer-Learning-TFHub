@@ -215,8 +215,7 @@ TensorBoard is used in Task 10 to visualize training metrics for all models inte
 The log directory (`logdir`) is initialized at the start of the notebook using `pathlib` and `tempfile`, and cleaned up on each run with `shutil.rmtree`. The inline TensorBoard widget in Colab provides a live dashboard for exploring per-epoch accuracy and loss.
 
 ## Learning Objectives
-By completing this project, we are able to:
-
+This project demonstrates the ability to:
 - Load and use pre-trained NLP text embedding models from TensorFlow Hub as Keras layers.
 - Build, compile, and train Sequential text classification models using the `tf.keras` API.
 - Compare the performance of multiple embedding strategies — from lightweight word-based models to large Transformer-based sentence encoders.
