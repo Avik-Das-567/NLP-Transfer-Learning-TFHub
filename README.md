@@ -1,6 +1,6 @@
 # Transfer Learning for NLP with TensorFlow Hub
 
-A practical deep learning project demonstrating how to leverage pre-trained NLP models from **TensorFlow Hub** for binary text classification using the **Quora Insincere Questions** dataset. The project walks through loading pre-trained text embeddings, building and training classification models, fine-tuning hub modules, and visualizing training metrics with **TensorBoard** — all within a GPU-accelerated Google Colab environment.
+A practical deep learning project demonstrating how to leverage pre-trained NLP models from **TensorFlow Hub** for binary text classification using the **Quora Insincere Questions** dataset. The project walks through loading pre-trained text embeddings, building and training classification models, fine-tuning hub modules, and visualizing training metrics with **TensorBoard**, all within a GPU-accelerated Google Colab environment.
 
 ## Overview
 
@@ -126,7 +126,7 @@ Generate a single vector for the entire sentence, taking into account word order
 - **Fine-tuned hub layers** (`trainable=True`): All weights including the embedding module are updated. Allows task-specific adaptation at the cost of more compute.
 
 ## Learning Objectives
-
+By completing this project, we will be able to:
 - Use various pre-trained NLP text embedding models from **TensorFlow Hub**
 - Perform **transfer learning** to fine-tune models on our own text data
 - Build and compile Keras models with **hub layers** as feature extractors
@@ -134,8 +134,4 @@ Generate a single vector for the entire sentence, taking into account word order
 - Visualize and compare **accuracy and loss curves** across multiple models
 - Understand the trade-offs between word-based and context-based text representations
 
-## Acknowledgements
-
-- [TensorFlow Hub](https://tfhub.dev/) for the pre-trained embedding modules
-- [Quora Insincere Questions Classification](https://www.kaggle.com/c/quora-insincere-questions-classification) — original dataset from Kaggle
-- [TensorFlow Docs](https://github.com/tensorflow/docs) for the `tfdocs` plotting and modeling utilities
+---
