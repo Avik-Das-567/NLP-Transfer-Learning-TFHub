@@ -93,8 +93,6 @@ Training histories for all models are collected and compared side-by-side using 
 
 Fine-tuning the `gnews-swivel-20dim` hub layer (`trainable=True`) makes **all 421,909 parameters trainable** (vs. only 21,889 trainable params in the frozen variant), allowing the embedding weights to adapt to the specific task.
 
----
-
 ## Tech Stack
 
 | Library | Version | Purpose |
